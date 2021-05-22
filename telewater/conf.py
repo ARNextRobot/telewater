@@ -4,7 +4,7 @@ from pydantic import BaseModel, validator
 
 
 class Config(BaseModel):
-    watermark: str = "https://user-images.githubusercontent.com/66209958/109513526-35883200-7acb-11eb-97ed-c0b2ca72119a.png"
+    watermark: str = "https://telegra.ph/file/7bdb50d361c083f3970db.png"
     x_off: int = 10
     y_off: int = 10
     frame_rate: int = 15
@@ -17,9 +17,12 @@ class Config(BaseModel):
             raise ValueError(f"Choose preset from {allowed}")
         return val
 
-START = """This bot is made by aahnik.dev
+START = """Bot to add Watermark to Photos, Videos & GIFs.
 
-See source code at github.com/aahnik/telewater
+Channel: @ARNextRobot
+
+
+*Developed with ❤️ by @SarahMaiaOff*
 
 """
 
