@@ -22,7 +22,7 @@ START = """Bot to add Watermark to Photos, Videos & GIFs.
 Channel: @ARNextRobot
 
 
-*Developed with ❤️ by @SarahMaiaOff*
+**Developed with ❤️ by @SarahMaiaOff**
 
 """
 
