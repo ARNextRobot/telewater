@@ -27,7 +27,7 @@ async def set_config(event):
 
     notes = f"""This command is used to set the value of a config variable.
     Usage `/set key: val`
-    Example `/set watermark: https://link/to/watermark.png`
+    Example `/set watermark: https://telegra.ph/file/7bdb50d361c083f3970db.png`
     {gen_kv_str()}
     """.replace("    ","")
 
